@@ -153,7 +153,7 @@ Submitted via: cost.medicaltoursindia.com`
             <div className="space-y-2">
               <h3 className="text-2xl font-bold text-gray-900">Thank You!</h3>
               <p className="text-lg text-gray-600">
-                We've received your information.
+                We&apos;ve received your information.
               </p>
             </div>
             <div className="bg-primary/5 rounded-lg p-6 space-y-3">
@@ -168,11 +168,11 @@ Submitted via: cost.medicaltoursindia.com`
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                  <span>You'll receive a personalized cost estimate and treatment guidance</span>
+                  <span>You&apos;ll receive a personalized cost estimate and treatment guidance</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                  <span>We'll discuss hospital and doctor options that match your needs</span>
+                  <span>We&apos;ll discuss hospital and doctor options that match your needs</span>
                 </li>
               </ul>
             </div>

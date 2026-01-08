@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 
@@ -133,11 +133,6 @@ export const metadata: Metadata = {
     canonical: "https://cost.medicaltoursindia.com",
   },
   category: "Medical Tourism",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
   other: {
    "geo.region": "IN-TG",
     "geo.placename": "Hyderabad",
@@ -154,6 +149,12 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 }
 
 export default function RootLayout({

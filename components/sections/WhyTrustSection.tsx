@@ -37,7 +37,7 @@ export function WhyTrustSection() {
             Why Patients from the <span className="text-primary">US, UK, UAE & Africa</span> Trust Medical Tours India
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're different because we put your needs first, not our bottom line.
+            We&apos;re different because we put your needs first, not our bottom line.
           </p>
         </div>
         

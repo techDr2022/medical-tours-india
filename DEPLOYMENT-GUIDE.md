@@ -22,7 +22,7 @@ git commit -m "Initial commit: Medical Tours India website with treatment pages"
 ### 1.4 Add remote and push
 ```bash
 # Replace YOUR_USERNAME and REPO_NAME with your actual values
-git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+git remote add origin https://github.com/techDr2022/medical-tours-india.git
 git branch -M main
 git push -u origin main
 ```

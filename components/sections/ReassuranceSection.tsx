@@ -35,7 +35,7 @@ export function ReassuranceSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-            If You're Considering Treatment in India, <span className="text-primary">These Questions Are Normal</span>
+            If You&apos;re Considering Treatment in India, <span className="text-primary">These Questions Are Normal</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We address these concerns before you travel, not after you arrive.

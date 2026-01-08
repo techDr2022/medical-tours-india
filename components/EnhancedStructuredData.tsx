@@ -5,7 +5,6 @@ export function EnhancedStructuredData() {
     "@id": "https://cost.medicaltoursindia.com/#localbusiness",
     name: "Medical Tours India",
     image: "https://cost.medicaltoursindia.com/og-image.jpg",
-    "@id": "https://cost.medicaltoursindia.com",
     telephone: "+91-90322-92171",
     priceRange: "Free Consultation",
     address: {

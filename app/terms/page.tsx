@@ -97,7 +97,7 @@ export default function TermsPage() {
                 <li>Errors or omissions in third-party information</li>
               </ul>
               <p className="mt-4 font-medium text-gray-800">
-                All services are provided on an "as-is" and "as-available" basis.
+                All services are provided on an &quot;as-is&quot; and &quot;as-available&quot; basis.
               </p>
             </section>
 

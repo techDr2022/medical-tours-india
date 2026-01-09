@@ -78,7 +78,7 @@ export default function CookiePolicyPage() {
               
               <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">5.1 Browser Settings</h3>
               <p>
-                Most browsers allow you to refuse or delete cookies. The methods for doing so vary from browser to browser. You can usually find these settings in your browser's "Privacy" or "Options" menu. Here are links to cookie settings for major browsers:
+                Most browsers allow you to refuse or delete cookies. The methods for doing so vary from browser to browser. You can usually find these settings in your browser&apos;s &quot;Privacy&quot; or &quot;Options&quot; menu. Here are links to cookie settings for major browsers:
               </p>
               <ul className="list-disc pl-6 space-y-2 mt-4">
                 <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Chrome</a></li>

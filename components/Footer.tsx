@@ -49,9 +49,26 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} Medical Tours India. All rights reserved.</p>
-          <p className="mt-2">100% Free Medical Guidance • No Hidden Fees • Trusted by International Patients</p>
+        <div className="border-t border-gray-800 pt-8">
+          <div className="flex flex-wrap justify-center gap-6 mb-4 text-sm">
+            <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
+              Terms of Service
+            </a>
+            <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
+              Privacy Policy
+            </a>
+            <a href="/cookie-policy" className="text-gray-400 hover:text-white transition-colors">
+              Cookie Policy
+            </a>
+            <a href="/disclaimer" className="text-gray-400 hover:text-white transition-colors">
+              Medical Disclaimer
+            </a>
+          </div>
+          <div className="text-center text-gray-400 text-sm">
+            <p>© 2026 Medical Tours India. All rights reserved.</p>
+            <p className="mt-2">Developed by <a href="https://techdr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">techDr.in</a></p>
+            <p className="mt-2">100% Free Medical Guidance • No Hidden Fees • Trusted by International Patients</p>
+          </div>
         </div>
       </div>
     </footer>

@@ -38,6 +38,38 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
 
     // ============================================
+    // LEGAL PAGES - Medium Priority
+    // ============================================
+    
+    routes.push({
+      url: `${baseUrl}/terms`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    })
+
+    routes.push({
+      url: `${baseUrl}/privacy`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    })
+
+    routes.push({
+      url: `${baseUrl}/cookie-policy`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    })
+
+    routes.push({
+      url: `${baseUrl}/disclaimer`,
+      lastModified: currentDate,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    })
+
+    // ============================================
     // TREATMENT PAGES - High Priority
     // ============================================
     

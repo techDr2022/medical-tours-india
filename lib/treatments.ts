@@ -45,7 +45,7 @@ export interface Treatment {
 
 export const treatments: Treatment[] = [
   {
-    slug: "ivf-fertility",
+    slug: "ivf-fertility-india",
     name: "IVF & Fertility",
     shortName: "IVF & Fertility",
     description: "Comprehensive fertility treatment including IVF, IUI, and advanced reproductive technologies in India with world-class success rates at affordable costs.",
@@ -210,7 +210,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "heart-procedures",
+    slug: "heart-procedures-india",
     name: "Heart Procedures",
     shortName: "Heart Procedures",
     description: "Comprehensive cardiac care including bypass surgery, angioplasty, valve replacement, and advanced heart procedures with experienced cardiologists in India.",
@@ -374,7 +374,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "cancer-care",
+    slug: "cancer-care-india",
     name: "Cancer Care",
     shortName: "Cancer Care",
     description: "Comprehensive oncology services including chemotherapy, radiation therapy, surgical oncology, immunotherapy, and targeted therapy with leading cancer specialists.",
@@ -538,7 +538,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "joint-replacement",
+    slug: "joint-replacement-india",
     name: "Joint Replacement",
     shortName: "Joint Replacement",
     description: "Advanced orthopedic procedures including hip replacement, knee replacement, and shoulder replacement with experienced surgeons and modern implants.",
@@ -703,7 +703,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "spine-neuro",
+    slug: "spine-neuro-india",
     name: "Spine & Neuro",
     shortName: "Spine & Neuro",
     description: "Advanced neurosurgical and spine procedures including spinal fusion, disc replacement, brain surgery, and minimally invasive neurosurgery with expert neurosurgeons.",
@@ -867,7 +867,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "cosmetic-reconstructive",
+    slug: "cosmetic-reconstructive-india",
     name: "Cosmetic & Reconstructive",
     shortName: "Cosmetic & Reconstructive",
     description: "Comprehensive cosmetic and reconstructive surgery including facelifts, breast augmentation, rhinoplasty, liposuction, and reconstructive procedures with board-certified plastic surgeons.",
@@ -1028,7 +1028,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "dental-care",
+    slug: "dental-care-india",
     name: "Dental Care",
     shortName: "Dental Care",
     description: "Comprehensive dental treatments including dental implants, crowns, bridges, root canals, cosmetic dentistry, and full mouth rehabilitation with experienced dentists.",
@@ -1187,7 +1187,7 @@ export const treatments: Treatment[] = [
     ]
   },
   {
-    slug: "organ-transplant-support",
+    slug: "organ-transplant-support-india",
     name: "Organ Transplant Support",
     shortName: "Organ Transplant",
     description: "Comprehensive organ transplant services including kidney transplant, liver transplant, heart transplant, and bone marrow transplant with experienced transplant teams.",

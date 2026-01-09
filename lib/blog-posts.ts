@@ -1801,7 +1801,7 @@ Indian transplant centers maintain excellent success rates:
 ## Types of Organ Transplants Available in India
 
 ### 1. Kidney Transplant
-The most common organ transplant procedure in India. Learn more about [organ transplant support services](/treatments/organ-transplant-support) available.
+The most common organ transplant procedure in India. Learn more about [organ transplant support services](/treatments/organ-transplant-support-india) available.
 
 **Cost**: $15,000 - $25,000
 **Success Rate**: 95%+ 1-year survival
@@ -1975,7 +1975,7 @@ For type 1 diabetes with complications.
 Waiting time varies by organ and availability. Living donor transplants can be immediate, while deceased donor transplants may take 3-12 months.
 
 ### What is the success rate?
-Success rates are excellent, with 1-year survival rates of 80-95% depending on the organ type. Learn more about [organ transplant support](/treatments/organ-transplant-support).
+Success rates are excellent, with 1-year survival rates of 80-95% depending on the organ type. Learn more about [organ transplant support](/treatments/organ-transplant-support-india).
 
 ### Can I bring a living donor?
 Yes, living donor transplants are common for kidney and liver transplants, offering immediate availability and often better outcomes.
@@ -2048,7 +2048,7 @@ Neurological and spine surgeries in India cost 70-85% less than Western countrie
 ## Types of Neurological Surgeries Available
 
 ### 1. Brain Surgery
-Complex procedures for various brain conditions. Learn more about [spine and neurological treatment options](/treatments/spine-neuro).
+Complex procedures for various brain conditions. Learn more about [spine and neurological treatment options](/treatments/spine-neuro-india).
 
 **Brain Tumor Removal**
 - **Cost**: $8,000 - $15,000
@@ -2321,7 +2321,7 @@ Dental procedures in India cost 60-80% less than Western countries:
 ## Types of Dental Procedures Available
 
 ### 1. Cosmetic Dentistry
-Transform your smile with advanced cosmetic procedures. Learn more about [dental care options](/treatments/dental-care) available in India.
+Transform your smile with advanced cosmetic procedures. Learn more about [dental care options](/treatments/dental-care-india) available in India.
 
 **Smile Makeover**
 - **Cost**: $2,000 - $5,000
@@ -3003,7 +3003,7 @@ For [joint replacement recovery](/blog/knee-replacement-surgery-india-cost-recov
 - Optimal function
 
 ### Spine Surgery Recovery
-Recovery from [spine and neurological procedures](/treatments/spine-neuro) requires specialized care.
+Recovery from [spine and neurological procedures](/treatments/spine-neuro-india) requires specialized care.
 
 **Week 1-2: Hospital Recovery**
 - Hospital monitoring

@@ -2,9 +2,16 @@ import { MetadataRoute } from "next"
 import { blogPosts } from "@/lib/blog-posts"
 import { treatments } from "@/lib/treatments"
 
+// Force dynamic generation to prevent caching issues
+export const dynamic = 'force-dynamic'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://cost.medicaltoursindia.com"
   const currentDate = new Date()
+
+  // Verify data is loaded correctly
+  const totalTreatments = treatments.length
+  const totalBlogPosts = blogPosts.length
 
   const routes: MetadataRoute.Sitemap = []
 
@@ -39,32 +46,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // TREATMENT PAGES - High Priority
   // ============================================
   
-  treatments.forEach((treatment) => {
-    routes.push({
-      url: `${baseUrl}/treatments/${treatment.slug}`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.8,
+  // Ensure treatments are added
+  if (treatments && treatments.length > 0) {
+    treatments.forEach((treatment) => {
+      if (treatment && treatment.slug) {
+        routes.push({
+          url: `${baseUrl}/treatments/${treatment.slug}`,
+          lastModified: currentDate,
+          changeFrequency: "monthly",
+          priority: 0.8,
+        })
+      }
     })
-  })
+  }
 
   // ============================================
   // BLOG POSTS - Medium Priority
   // ============================================
   
   // Sort blog posts by date (newest first) for better organization
-  const sortedBlogPosts = [...blogPosts].sort((a, b) => {
-    return new Date(b.date).getTime() - new Date(a.date).getTime()
-  })
-
-  sortedBlogPosts.forEach((post) => {
-    routes.push({
-      url: `${baseUrl}/blog/${post.slug}`,
-      lastModified: new Date(post.date),
-      changeFrequency: "monthly",
-      priority: 0.8,
+  if (blogPosts && blogPosts.length > 0) {
+    const sortedBlogPosts = [...blogPosts].sort((a, b) => {
+      return new Date(b.date).getTime() - new Date(a.date).getTime()
     })
-  })
+
+    sortedBlogPosts.forEach((post) => {
+      if (post && post.slug) {
+        routes.push({
+          url: `${baseUrl}/blog/${post.slug}`,
+          lastModified: new Date(post.date),
+          changeFrequency: "monthly",
+          priority: 0.8,
+        })
+      }
+    })
+  }
 
   return routes
 }
